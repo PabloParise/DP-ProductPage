@@ -26,15 +26,15 @@ body {
     padding-left: 10px;
 }
 .nav-list {
+    display: flex;
     list-style-type: none;
     font-family: Arial, Helvetica, sans-serif;
     margin-right: 10px;
 }
-.nav-list .nav-link {
+.nav-link {
     display: inline-block;
     padding: 30px 10px;
     border-radius: 2%;
-   /* Corregir botones para que todo sea un link y no solo la palabra */
 }
 #nav-bar a{
     color: white;
@@ -69,7 +69,7 @@ body {
         text-align: center;
         display: none;
     }
-    .nav-list .nav-link {
+    .nav-link {
         display: block;
         padding: 10px 10px;
         border-top: 1px solid white;
